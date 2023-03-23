@@ -19,5 +19,5 @@ function getArrayModifications(originalArray, updatedArray) {
 const originalArray = [1, 2, 3];
 const updatedArray = [2, 3, 4];
 const modifications = getArrayModifications(originalArray, updatedArray);
-console.log(modifications.newElements);
-console.log(modifications.removedElements);
+console.log("New Element", modifications.newElements);
+console.log("Removed Element", modifications.removedElements);
